@@ -12,7 +12,7 @@ public class JenkinsApplication {
 
   @GetMapping("/")
   public String index() {
-    return "Hello World";
+    return "Hello World, Hello Jenkins";
   }
 
   public static void main(String[] args) {
